@@ -1,0 +1,167 @@
+
+*{box-sizing: border-box;
+}
+body,
+html {
+	font-size: 20px;
+	font-family:'Roboto', sans-serif;'
+	padding-left: 0%;
+	margin-left: 0px;
+	
+}
+
+body{ background-color: #d5e1f4;
+	padding-left: 0px;
+}
+
+
+div.content{
+	padding-top: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+div.headline {
+	font-size: auto;
+	display:inline-flex;
+	font-weight: normal;
+	text-align: auto;
+	font-variant: normal;
+	font-style: bold;
+	padding-top: 10px;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+	line-height: 40px;
+
+}
+div.subheadline {
+	font-size: .65em;
+	line-height: 25px;
+	text-align: auto;
+
+}
+
+div.byline {
+	font-size: .75em;
+	font-weight: normal;
+	text-align:  left;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: auto;
+	margin-bottom: 0px;
+	padding-top: auto;
+	line-height: auto;
+
+}
+div.dateline {
+	font-size: .5em;
+	font-weight: normal;
+	text-align:  left;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: auto;
+	margin-bottom: 0px;
+	padding-top: auto;
+	line-height: auto;
+
+}
+
+
+p.caption {
+	font-size: 0.5em;
+	line-height: 10px;
+	text-align: center;
+	padding: auto;
+	padding-left: 50px;
+	padding-bottom: 1px;
+}
+div.paragraph {
+	font-size: 0.90em;
+	display:block;
+	font-weight: normal;
+	text-align: auto;
+	font-variant: normal;
+	font-style: bold;
+	margin-top: auto;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: auto;
+
+}
+div.flexbox {
+	margin-left: auto;
+}
+
+}
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+
+	
+img. {
+display: inline-block;
+max-height: auto;
+max-width: 20px;
+size: auto;
+width: 100%;
+margin-left: 0%;
+padding-right: 10px;
+align-items: center;
+display: block;
+padding-bottom: auto;
+padding-top: .1px;	
+}
+
+div.flexbox {
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+	
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+}
+	
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+
+img {
+max-height: auto;
+max-width:auto;
+size: 100px;
+margin-left: auto;
+margin-right: auto;
+align-content: left;
+align-items: auto;
+display: block;
+padding-bottom: auto;
+padding-top: .1px;
+padding-left: 0%;
+
+
+}
+
+div.flexbox {
+	max-width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	padding-left: 0%;
+	margin-left: 0px;
+
+}
+
+
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
